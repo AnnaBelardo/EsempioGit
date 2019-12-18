@@ -9,7 +9,7 @@ public class HelloWorld {
     }
     
     public void sayBye() {
-        System.out.println("Bye Bye " );
+        System.out.println("Bye Bye " + nome + nome + nome + nome);
     }
     
     public void sayGoodBye() {
