@@ -1,5 +1,5 @@
 public class HelloWorld {
-    String nome;
+    private String nome;
     HelloWorld(String nome){
         this.nome = nome;
     }
@@ -9,7 +9,7 @@ public class HelloWorld {
     }
     
     public void sayBye() {
-        System.out.println("Bye Bye ");
+        System.out.println("Bye Bye " + nome);
     }
     
     public void sayGoodBye() {
